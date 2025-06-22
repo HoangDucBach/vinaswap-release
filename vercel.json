@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "vinaswap/package.json",
+            "use": "@vercel/node"
+        }
+    ],
+    "buildCommand": "git submodule update --init --recursive && cd vinaswap && npm install && npm run build",
+    "outputDirectory": "vinaswap/.next",
+    "framework": "nextjs"
+}
