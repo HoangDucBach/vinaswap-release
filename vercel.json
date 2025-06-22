@@ -1,5 +1,5 @@
 {
-    "buildCommand": "git submodule update --init --recursive && cd vinaswap && npm install && npm run build",
-    "outputDirectory": "vinaswap/.next",
+    "buildCommand": "bash script.sh && cd vinaswap_source && npm install && npm run build",
+    "outputDirectory": "vinaswap_source/.next",
     "framework": "nextjs"
 }
