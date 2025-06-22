@@ -1,5 +1,0 @@
-{
-    "buildCommand": "bash script.sh && cd vinaswap_source && npm install && npm run build",
-    "outputDirectory": "vinaswap_source/.next",
-    "framework": "nextjs"
-}
